@@ -16,6 +16,13 @@
   "env": {
     "NODE_ENV": "production",
     "SKIP_GIT_CHECK": "true",
-    "SKIP_WORKERD": "true"
+    "SKIP_WORKERD": "true",
+    "DISABLE_CLOUDFLARE": "true"
+  },
+  "functions": {
+    "api/**/*.ts": {
+      "memory": 1024,
+      "maxDuration": 10
+    }
   }
 } 
