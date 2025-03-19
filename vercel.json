@@ -15,6 +15,7 @@
   ],
   "env": {
     "NODE_ENV": "production",
-    "SKIP_GIT_CHECK": "true"
+    "SKIP_GIT_CHECK": "true",
+    "SKIP_WORKERD": "true"
   }
-}
+} 
