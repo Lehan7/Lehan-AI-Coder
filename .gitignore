@@ -1,0 +1,69 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production
+/build
+/dist
+
+# Misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Vercel
+.vercel
+
+logs
+*.log
+
+lerna-debug.log*
+
+dist-ssr
+*.local
+
+.vscode/launch.json
+.cursorrules
+*.md
+
+Modelfile
+modelfiles
+
+# docs ignore
+site
+
+# commit file ignore
+app/commit.json
+changelogUI.md
+docs/instructions/Roadmap.md
+
+/.history
+/.cache
+/build
+.dev.vars
+*.vars
+.wrangler
+_worker.bundle

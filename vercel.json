@@ -1,0 +1,19 @@
+{
+  "buildCommand": "pnpm run build",
+  "devCommand": "pnpm run dev",
+  "installCommand": "pnpm install",
+  "framework": "remix",
+  "outputDirectory": "build/client",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "build/client"
+      }
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  }
+} 
